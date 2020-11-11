@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #131212;
+    transition: background-color 3s;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+}
+
+#btn {
+    color: #d1dfdf;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    outline: none;
+    background: linear-gradient(red, orange, yellow , green, blue, indigo, violet);
+    box-shadow: 5px 5px 20px 5px black;
+}
